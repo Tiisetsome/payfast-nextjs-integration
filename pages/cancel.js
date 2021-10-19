@@ -1,7 +1,7 @@
 import md5 from "md5";
 import { useState } from "react";
 
-export default function Home({ payfastFormData }) {
+export default function Cancel({ payfastFormData }) {
   return (
     <div>
       <h2>Payfast integration with Next Js</h2>
