@@ -79,9 +79,9 @@ export async function getServerSideProps(context) {
   const paymentData = {
     merchant_id: process.env.merchantId,
     merchant_key: process.env.merchantKey,
-    return_url: "https://554a-102-252-66-224.ngrok.io/success",
-    cancel_url: "https://554a-102-252-66-224.ngrok.io/cancel",
-    notify_url: "https://554a-102-252-66-224.ngrok.io/notify",
+    return_url: "https://yourdomain.com/success", //
+    cancel_url: "https://yourdomain.com/cancel",
+    notify_url: "https://yourdomain.com/notify",
     name_first: "Katlego",
     email_address: "katlego@gmail.com",
     amount: 20.0, // ampunt should be the cart total amount
