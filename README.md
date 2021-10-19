@@ -15,7 +15,8 @@ npm run dev
 yarn dev
 ```
 You need to install a tool called NGROK ([https://ngrok.com/download] ) to publicly make your notify_url accessible, this is the page payfast will send the payment notification once they payment has been made. Check ngrok official website to learn how to make your localhost available on the internet. 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+Next, open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 NB: Don't forget to include merchant_id and merchant_key as provided by payfast in your .env file. Visit their site [https://developers.payfast.co.za/docs#onsite_payments] to get those details for testing environment.
 
