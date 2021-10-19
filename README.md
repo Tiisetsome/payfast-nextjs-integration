@@ -14,7 +14,7 @@ npm run dev
 # or
 yarn dev
 ```
-You need to install a tool called NGROK ([https://ngrok.com/download] ) to publicly make your notify_url accessible, this the page payfast will send the payment notification once they payment has been amde. For more details, check : [https://developers.payfast.co.za/docs#onsite_payments].
+You need to install a tool called NGROK ([https://ngrok.com/download] ) to publicly make your notify_url accessible, this is the page payfast will send the payment notification once they payment has been amde. For more details, check : [https://developers.payfast.co.za/docs#onsite_payments].
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
